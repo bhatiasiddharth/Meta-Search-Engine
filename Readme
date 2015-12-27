@@ -1,0 +1,15 @@
+Initially environment must be set by typing
+-->source env/bin/activate
+This is for retrieving the documents using Google Scraper. Had created a virtual environment for the python file
+
+Run
+-->python config.py
+This will generate the documents in keyword_google.txt and keyword_yahoo.txt
+
+Then compile
+-->g++ 2011B4A7680P.cpp -std=gnu++11
+Run
+-->./a.out
+This is the code for aggregating the documents, ranking and then evaluating the ranking
+
+Can change the keyword both in .cpp and .py files
