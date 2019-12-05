@@ -5,11 +5,11 @@ Meta Search Engine
 * Set environment:
 source env/bin/activate
 
-* Generate documents in keyword_google.txt and keyword_yahoo.txt 
+* Generate documents in keyword_google.txt and keyword_yahoo.txt: 
 python config.py
 
-* Compile
+* Compile:
 g++ ranking.cpp -std=gnu++11
 
-Run
+* Run:
 ./a.out
